@@ -1,0 +1,89 @@
+:root {
+  --color-dark: #1d2532;
+  --color-white: #ffffff;
+  --color-grey: #24242480;
+  --color-green: #c3f33b;
+}
+
+.nft-button-normal,
+.nft-button-active {
+  border-radius: 20px;
+  background: var(--gr, linear-gradient(141deg, #1DD844 0%, #CBF62E 100%));
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  cursor: pointer;
+
+  color: var(--color-dark);
+  text-align: center;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.nft-button-normal:hover {
+  border-radius: 20px;
+  background: var(--gr, linear-gradient(141deg, #1DD844 0%, #CBF62E 100%));
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.nft-button-disabled {
+  border-radius: 20px;
+  background: var(--gr, linear-gradient(141deg, #1DD844 0%, #CBF62E 100%));
+  border: none;
+  outline: none;
+  padding: 20px 30px;
+  cursor: pointer;
+
+  color: var(--color-grey);
+  text-align: center;
+  font-family: GT Walsheim Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.pa-button-normal,
+.pa-button-disabled {
+  border-radius: 15px;
+  border: 1px solid var(--color-white);
+  background: none;
+  outline: none;
+  padding: 16px 22px;
+  cursor: pointer;
+
+  color: var(--color-white);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pa-button-normal:hover {
+  border-radius: 15px;
+  border: 1px solid var(--color-green);
+  color: var(--color-green);
+}
+
+.pa-button-active{
+  border-radius: 15px;
+  border: 1px solid var(--color-green);
+  background: rgba(224, 255, 172, 0.05);
+  backdrop-filter: blur(7.5px);
+  padding: 16px 22px;
+  outline: none;
+  padding: 16px 22px;
+  cursor: pointer;
+
+  color: var(--color-green);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
