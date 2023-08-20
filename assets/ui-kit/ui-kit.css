@@ -17,10 +17,10 @@
 
   color: var(--color-dark);
   text-align: center;
-  font-family: GT Walsheim Pro;
+  font-family: Jost;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 130%;
 }
 
@@ -40,7 +40,7 @@
 
   color: var(--color-grey);
   text-align: center;
-  font-family: GT Walsheim Pro;
+  font-family: Jost;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
